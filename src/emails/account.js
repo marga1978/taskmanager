@@ -8,7 +8,7 @@ var transporter = nodemailer.createTransport({
     user: "*************@gmail.com",
     pass: "********",
   },
-});
+});;
 
 const sendWelcomeEmail = (email, name) => {
   
